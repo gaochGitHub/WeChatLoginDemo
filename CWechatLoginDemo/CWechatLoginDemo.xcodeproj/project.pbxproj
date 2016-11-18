@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A168380DEDAE311BE51B05F5 /* libPods-CWechatLoginDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F3AFA695A1DE22BF091A298 /* libPods-CWechatLoginDemo.a */; };
+		CC402DC41DDEF6D0005FEC31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC402DC31DDEF6D0005FEC31 /* main.m */; };
+		CC402DC71DDEF6D0005FEC31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC402DC61DDEF6D0005FEC31 /* AppDelegate.m */; };
+		CC402DCA1DDEF6D0005FEC31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC402DC91DDEF6D0005FEC31 /* ViewController.m */; };
+		CC402DCD1DDEF6D0005FEC31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC402DCB1DDEF6D0005FEC31 /* Main.storyboard */; };
+		CC402DCF1DDEF6D0005FEC31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC402DCE1DDEF6D0005FEC31 /* Assets.xcassets */; };
+		CC402DD21DDEF6D0005FEC31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC402DD01DDEF6D0005FEC31 /* LaunchScreen.storyboard */; };
+		CC402DE01DDEF7F0005FEC31 /* QWeChatLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = CC402DDB1DDEF7F0005FEC31 /* QWeChatLogin.m */; };
+		CC402DE11DDEF7F0005FEC31 /* QWeChatLoginSuccess.m in Sources */ = {isa = PBXBuildFile; fileRef = CC402DDD1DDEF7F0005FEC31 /* QWeChatLoginSuccess.m */; };
+		CC402DE21DDEF7F0005FEC31 /* QWeChatUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC402DDF1DDEF7F0005FEC31 /* QWeChatUserInfoModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A2A3F7A836771F3F35521CD /* Pods-CWechatLoginDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CWechatLoginDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CWechatLoginDemo/Pods-CWechatLoginDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7F3AFA695A1DE22BF091A298 /* libPods-CWechatLoginDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CWechatLoginDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF0188F99335019DE97BDA3B /* Pods-CWechatLoginDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CWechatLoginDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CWechatLoginDemo/Pods-CWechatLoginDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CC402DBF1DDEF6D0005FEC31 /* CWechatLoginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CWechatLoginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC402DC31DDEF6D0005FEC31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC402DC51DDEF6D0005FEC31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC402DC61DDEF6D0005FEC31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC402DC81DDEF6D0005FEC31 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC402DC91DDEF6D0005FEC31 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC402DCC1DDEF6D0005FEC31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC402DCE1DDEF6D0005FEC31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC402DD11DDEF6D0005FEC31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC402DD31DDEF6D0005FEC31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC402DDA1DDEF7F0005FEC31 /* QWeChatLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWeChatLogin.h; sourceTree = "<group>"; };
+		CC402DDB1DDEF7F0005FEC31 /* QWeChatLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWeChatLogin.m; sourceTree = "<group>"; };
+		CC402DDC1DDEF7F0005FEC31 /* QWeChatLoginSuccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWeChatLoginSuccess.h; sourceTree = "<group>"; };
+		CC402DDD1DDEF7F0005FEC31 /* QWeChatLoginSuccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWeChatLoginSuccess.m; sourceTree = "<group>"; };
+		CC402DDE1DDEF7F0005FEC31 /* QWeChatUserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWeChatUserInfoModel.h; sourceTree = "<group>"; };
+		CC402DDF1DDEF7F0005FEC31 /* QWeChatUserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWeChatUserInfoModel.m; sourceTree = "<group>"; };
+		CC402DE31DDF0609005FEC31 /* WechatLogin-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WechatLogin-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC402DBC1DDEF6D0005FEC31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A168380DEDAE311BE51B05F5 /* libPods-CWechatLoginDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		066CD8ACDBBFDFB76B28745C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF0188F99335019DE97BDA3B /* Pods-CWechatLoginDemo.debug.xcconfig */,
+				5A2A3F7A836771F3F35521CD /* Pods-CWechatLoginDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC402DB61DDEF6D0005FEC31 = {
+			isa = PBXGroup;
+			children = (
+				CC402DC11DDEF6D0005FEC31 /* CWechatLoginDemo */,
+				CC402DC01DDEF6D0005FEC31 /* Products */,
+				066CD8ACDBBFDFB76B28745C /* Pods */,
+				DC1FB1B9253797B95F51CFC4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC402DC01DDEF6D0005FEC31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC402DBF1DDEF6D0005FEC31 /* CWechatLoginDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC402DC11DDEF6D0005FEC31 /* CWechatLoginDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CC402DD91DDEF7F0005FEC31 /* WechatTools */,
+				CC402DC51DDEF6D0005FEC31 /* AppDelegate.h */,
+				CC402DC61DDEF6D0005FEC31 /* AppDelegate.m */,
+				CC402DC81DDEF6D0005FEC31 /* ViewController.h */,
+				CC402DC91DDEF6D0005FEC31 /* ViewController.m */,
+				CC402DCB1DDEF6D0005FEC31 /* Main.storyboard */,
+				CC402DCE1DDEF6D0005FEC31 /* Assets.xcassets */,
+				CC402DD01DDEF6D0005FEC31 /* LaunchScreen.storyboard */,
+				CC402DD31DDEF6D0005FEC31 /* Info.plist */,
+				CC402DC21DDEF6D0005FEC31 /* Supporting Files */,
+				CC402DE31DDF0609005FEC31 /* WechatLogin-Header.h */,
+			);
+			path = CWechatLoginDemo;
+			sourceTree = "<group>";
+		};
+		CC402DC21DDEF6D0005FEC31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC402DC31DDEF6D0005FEC31 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC402DD91DDEF7F0005FEC31 /* WechatTools */ = {
+			isa = PBXGroup;
+			children = (
+				CC402DDA1DDEF7F0005FEC31 /* QWeChatLogin.h */,
+				CC402DDB1DDEF7F0005FEC31 /* QWeChatLogin.m */,
+				CC402DDC1DDEF7F0005FEC31 /* QWeChatLoginSuccess.h */,
+				CC402DDD1DDEF7F0005FEC31 /* QWeChatLoginSuccess.m */,
+				CC402DDE1DDEF7F0005FEC31 /* QWeChatUserInfoModel.h */,
+				CC402DDF1DDEF7F0005FEC31 /* QWeChatUserInfoModel.m */,
+			);
+			path = WechatTools;
+			sourceTree = "<group>";
+		};
+		DC1FB1B9253797B95F51CFC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F3AFA695A1DE22BF091A298 /* libPods-CWechatLoginDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC402DBE1DDEF6D0005FEC31 /* CWechatLoginDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC402DD61DDEF6D0005FEC31 /* Build configuration list for PBXNativeTarget "CWechatLoginDemo" */;
+			buildPhases = (
+				5148669D086EB0C680ABE61A /* [CP] Check Pods Manifest.lock */,
+				CC402DBB1DDEF6D0005FEC31 /* Sources */,
+				CC402DBC1DDEF6D0005FEC31 /* Frameworks */,
+				CC402DBD1DDEF6D0005FEC31 /* Resources */,
+				846FD9924C9CC251EFA941EB /* [CP] Embed Pods Frameworks */,
+				022A7DEA7EAF6FBB450078D0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CWechatLoginDemo;
+			productName = CWechatLoginDemo;
+			productReference = CC402DBF1DDEF6D0005FEC31 /* CWechatLoginDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC402DB71DDEF6D0005FEC31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = ChaoGao;
+				TargetAttributes = {
+					CC402DBE1DDEF6D0005FEC31 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 73K7UFYXJ9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CC402DBA1DDEF6D0005FEC31 /* Build configuration list for PBXProject "CWechatLoginDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC402DB61DDEF6D0005FEC31;
+			productRefGroup = CC402DC01DDEF6D0005FEC31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC402DBE1DDEF6D0005FEC31 /* CWechatLoginDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC402DBD1DDEF6D0005FEC31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC402DD21DDEF6D0005FEC31 /* LaunchScreen.storyboard in Resources */,
+				CC402DCF1DDEF6D0005FEC31 /* Assets.xcassets in Resources */,
+				CC402DCD1DDEF6D0005FEC31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		022A7DEA7EAF6FBB450078D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CWechatLoginDemo/Pods-CWechatLoginDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5148669D086EB0C680ABE61A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		846FD9924C9CC251EFA941EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CWechatLoginDemo/Pods-CWechatLoginDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC402DBB1DDEF6D0005FEC31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC402DE11DDEF7F0005FEC31 /* QWeChatLoginSuccess.m in Sources */,
+				CC402DCA1DDEF6D0005FEC31 /* ViewController.m in Sources */,
+				CC402DE21DDEF7F0005FEC31 /* QWeChatUserInfoModel.m in Sources */,
+				CC402DC71DDEF6D0005FEC31 /* AppDelegate.m in Sources */,
+				CC402DC41DDEF6D0005FEC31 /* main.m in Sources */,
+				CC402DE01DDEF7F0005FEC31 /* QWeChatLogin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC402DCB1DDEF6D0005FEC31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC402DCC1DDEF6D0005FEC31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC402DD01DDEF6D0005FEC31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC402DD11DDEF6D0005FEC31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC402DD41DDEF6D0005FEC31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC402DD51DDEF6D0005FEC31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC402DD71DDEF6D0005FEC31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF0188F99335019DE97BDA3B /* Pods-CWechatLoginDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 73K7UFYXJ9;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CWechatLoginDemo/WechatLogin-Header.h";
+				INFOPLIST_FILE = CWechatLoginDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fantax.CWechatLoginDemo.CWechatLoginDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC402DD81DDEF6D0005FEC31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A2A3F7A836771F3F35521CD /* Pods-CWechatLoginDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 73K7UFYXJ9;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CWechatLoginDemo/WechatLogin-Header.h";
+				INFOPLIST_FILE = CWechatLoginDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fantax.CWechatLoginDemo.CWechatLoginDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC402DBA1DDEF6D0005FEC31 /* Build configuration list for PBXProject "CWechatLoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC402DD41DDEF6D0005FEC31 /* Debug */,
+				CC402DD51DDEF6D0005FEC31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC402DD61DDEF6D0005FEC31 /* Build configuration list for PBXNativeTarget "CWechatLoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC402DD71DDEF6D0005FEC31 /* Debug */,
+				CC402DD81DDEF6D0005FEC31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC402DB71DDEF6D0005FEC31 /* Project object */;
+}
